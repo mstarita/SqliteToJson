@@ -112,7 +112,7 @@ class JsonConverter {
 
     static def showUsage() {
         println """
-Export the database in a json format.
+Export a Sqlite database in a json format.
 Please specify the following parameters:
 \t-db=<source-db> [-table=<table-name>|-all|-sql=<sql-stmt>] [-fields=comma separated fields] [-pretty]
 """
